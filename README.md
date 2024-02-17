@@ -1,6 +1,6 @@
 # Subject
 
-### Project instructions
+## Project instructions
 
 Your project must comply with the following rules:
 - You have to turn in a Makefile which will compile your source files. It must not relink.
@@ -14,7 +14,7 @@ Your project must comply with the following rules:
 
 <br>
 
-## Mandatory part
+### Mandatory part
 
 <br>
 
