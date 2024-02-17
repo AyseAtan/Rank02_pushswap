@@ -14,7 +14,7 @@ Your project must comply with the following rules:
 
 <br>
 
-Mandatory part
+## Mandatory part
 
 <br>
 
