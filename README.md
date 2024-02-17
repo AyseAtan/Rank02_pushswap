@@ -42,3 +42,11 @@ The rules
 - Oceano's guthub repo and youtube video: https://github.com/suspectedoceano/push_swap
 - About the Turk Algorithm: https://medium.com/@ayogun/push-swap-c1f5d2d41e97
 - O-reo's push_swap visualizer: https://github.com/o-reo/push_swap_visualizer
+
+### some commands to test:
+- ./push_swap $(shuf -i 0-100000 -n 500) |wc -l
+- ARG="4 67 3 87 23"; ./push_swap $ARG | wc -l
+- ./push_swap "4 67 3 87 23"
+- ./push_swap 2 1 3 6 5 8
+- ./push_swap 0 one 2 3 (should return Error)
+- ./push_swap 0 2 2 3 (should return Error)
