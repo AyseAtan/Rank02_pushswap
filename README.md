@@ -39,7 +39,7 @@ The rules
 ## Recipe
 
 - write the operation above (sa, sb, ss, pa, pb, ra, rb, rr, rra, rrb, rrr)
-- write a main that checks the arguments passed, if there is only one argument it has to be split
+- write a main function that checks the arguments passed, if there is only one argument, it has to be split
 - check the arguments for sytax errors etc.
 - initialize the stack, fill the stack with the arguments  
 - check if the arguments are sorted, if not they should be passed to your sorting algorithm
