@@ -20,17 +20,3 @@ int	ft_tolower(int c)
 	}
 	return (c);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int main ()
-{
-	char test = 'B';
-
-	printf("before: %c\n", test);
-	int result = ft_tolower(test);
-	printf("after myfunction: %c\n", result);
-	printf("after library: %c\n", tolower(test));
-
-	return 0;
-}*/
