@@ -27,35 +27,3 @@ char	*ft_strrchr(const char *str, int find)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int main()
-{
-    const char str[] = "Hello, this is a test string.";
-    int find = ' ';
-
-    char *result = ft_strrchr(str, find);
-    printf("My function: \n");
-    if (result != NULL)
-    {
-        printf("Last position at: %ld\n", result - str);
-    }
-    else
-    {
-        printf("not found.\n");
-    }
-    char *lib = strrchr(str, find);
-    printf("library: \n");
-    if (lib != NULL)
-    {
-        printf("Last position at: %ld\n", lib - str);
-    }
-    else
-    {
-        printf("not found.\n");
-    }
-
-    return 0;
-}*/
