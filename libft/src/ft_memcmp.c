@@ -29,34 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
-int main ()
-{
-	char *s1= "";
-	char *s2= "";
-	unsigned int n;
-	int result;
-	int lib;
-
-	n = strlen(s1);
-	printf("My Function:\n");
-	result = ft_memcmp(s1, s2, n);
-	if (result == 0)
-	    printf("equal\n");
-	else if(result <0)
-	    printf("s1<s2\n");
-	else {printf("s1>s2\n");}
-
-	printf("Library:\n");
-	lib = memcmp(s1, s2, n);
-	if (lib == 0)
-	    printf("equal\n");
-	else if(lib <0)
-	    printf("s1<s2\n");
-	else {printf("s1>s2\n");}
-
-	return (0);
-}*/
