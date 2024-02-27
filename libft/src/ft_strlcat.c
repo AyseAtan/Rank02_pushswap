@@ -31,16 +31,3 @@ size_t	ft_strlcat(char *dest, const char *src, size_t destsize)
 	dest[length_d + i] = '\0';
 	return (length_d + length_s);
 }
-/*
-//#include <bsd/string.h>
-#include <stdio.h>
-//have to use -lbsd when compiling!
-int main()
-{
-	char dest[8] = "Hello, ";
-	char src[] = "peer!";
-	size_t buffer = 2; //destination buffer
-	printf("%zu\n", ft_strlcat(dest, src, buffer));
-	//printf("%s", dest);
-	return 0;
-}*/
