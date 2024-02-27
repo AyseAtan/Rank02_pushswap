@@ -29,38 +29,3 @@ void	*ft_memchr(const void *src, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-#include <string.h>
-#include <stdio.h>
-int main()
-
-{
-    const char src[]="this is a Test string.";
-    char c;
-    int n;
-
-    c = 'T';
-    n = strlen(src);
-
-    printf("My Function:\n");
-    const void *result = ft_memchr(src, c, n);
-    if (result)
-        {
-            printf(" '%c' found at position: %ld\n", c, (char *)result - src);
-        }
-    else
-        {
-            printf(" '%c' not found in the string.\n", c);
-        }
-    printf("Library:\n");
-    const void *test = memchr(src, c, n);
-    if (test)
-        {
-            printf(" '%c' found at position: %ld\n", c, (char *)test - src);
-        }
-        else
-        {
-            printf("'%c' not found in the string.\n", c);
-        }
-    return 0;
-}*/
