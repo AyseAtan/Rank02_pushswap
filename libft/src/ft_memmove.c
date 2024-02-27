@@ -36,33 +36,3 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-/*
-#include <string.h>
-#include <stdio.h>
-int main()
-{
-    char dst[4]="dest";
-    char src[4]="sour";
-    size_t n;
-
-    n = sizeof(src);
-
-    printf("before:\n");
-    for (size_t i = 0; i < n; i++)
-        {
-            printf("str[%zu] = %c\n", i, dst[i]);
-        }
-    printf("My Function:\n");
-    ft_memmove(dst, src, n);
-    for (size_t i = 0; i < n; i++)
-        {
-            printf("str[%zu] = %c\n", i, dst[i]);
-        }
-    printf("Library:\n");
-    memmove(dst, src, n);
-    for (size_t i = 0; i < n; i++)
-        {
-            printf("str[%zu] = %c\n", i, dst[i]);
-        }
-    return 0;
-}*/
