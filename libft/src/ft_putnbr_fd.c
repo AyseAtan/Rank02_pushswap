@@ -34,13 +34,4 @@ void	ft_putnbr_fd(int n, int fd)
 	}
 	ft_putchar_fd(n % 10 + '0', fd);
 }
-/*int main()
-{
-    //int number = 2147483648;
-    int number = -2147483648;
-    int fileDescriptor = 1; //fd=1 standard output
 
-    ft_putnbr_fd(number, fileDescriptor);
-
-    return 0;
-}*/
