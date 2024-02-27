@@ -20,36 +20,3 @@ char	*ft_strchr(const char *str, int find)
 		return ((char *) str);
 	return (0);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-
-int main()
-{
-    char str[] = "Hello, this is a test string.";
-    int find = 'e';
-
-    char *result = ft_strchr(str, find);
-    printf("My Function: \n");
-    if (result != NULL)
-    {
-        printf("Found at position: %ld\n", result - str);
-    }
-    else
-    {
-        printf("not found.\n");
-    }
-
-    char *lib = strchr(str, find);
-    printf("Library: \n");
-    if (lib != NULL)
-    {
-        printf("Found at position: %ld\n", lib - str);
-    }
-    else
-    {
-        printf("not found.\n");
-    }
-
-    return 0;
-}*/
