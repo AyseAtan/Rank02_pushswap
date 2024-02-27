@@ -20,18 +20,3 @@ int	ft_toupper(int c)
 	}
 	return (c);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int main ()
-{
-	char test = 'b';
-
-	printf("before: %c\n", test);
-	int result = ft_toupper(test);
-	printf("after myfunction: %c\n", result);
-	printf("after library: %c\n", toupper(test));
-
-	return 0;
-}
-*/
