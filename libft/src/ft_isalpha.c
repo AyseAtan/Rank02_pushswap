@@ -20,21 +20,4 @@ int	ft_isalpha(int c)
 	}
 	return (1);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int main ()
-{
-	int test1 = '5';
-	int test2 = 'e';
 
-	printf("My Function:\n");
-    printf("non alpha test: %d\n", ft_isalpha(test1));
-    printf("alpha test: %d\n", ft_isalpha(test2));
-
-	printf("Library:\n");
-	printf("non alpha test: %d\n", isalpha(test1));
-    printf("alpha test: %d\n", isalpha(test2));
-
-    return 0;
-}*/
