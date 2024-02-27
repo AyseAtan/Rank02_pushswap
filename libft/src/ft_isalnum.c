@@ -20,23 +20,3 @@ int	ft_isalnum(int c)
 	}
 	return (1);
 }
-/*
-#include <stdio.h>
-#include <ctype.h>
-int main ()
-{
-	int test1 = '5';
-	int test2 = 'e';
-	int test3 = '&';
-
-	printf("My Function:\n");
-    printf("alnum test: %d\n", ft_isalnum(test1));
-    printf("alnum test: %d\n", ft_isalnum(test2));
-	printf("non alnum test: %d\n", ft_isalnum(test3));
-
-	printf("Library:\n");
-	printf("alnum test: %d\n", isalnum(test1));
-    printf("alnum test: %d\n", isalnum(test2));
-	printf("non alnum test: %d\n", isalnum(test3));
-    return 0;
-}*/
