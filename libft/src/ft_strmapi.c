@@ -33,32 +33,4 @@ char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 	result[len] = '\0';
 	return (result);
 }
-/*
 
-static char transformToUpperCase(unsigned int index, char c)
-{
-    // Check if c is a lowercase letter before converting
-    if (c >= 'a' && c <= 'z') {
-        // Convert to uppercase
-        return c - 'a' + 'A';
-    } else {
-        // Return unchanged for non-lowercase characters
-        return c;
-    }
-}
-
-int main()
-{
-    const char *input = "Hello, World!";
-    char *result = ft_strmapi(input, transformToUpperCase);
-
-    if (result)
-    {
-        printf("Original: %s\n", input);
-        printf("Transformed: %s\n", result);
-
-        // Don't forget to free the memory when done
-        free(result);
-    }
-    return 0;
-}*/
