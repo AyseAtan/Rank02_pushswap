@@ -78,31 +78,3 @@ char	**ft_split(char const *s, char c)
 	fill_result(result, word_count, s, c);
 	return (result);
 }
-/*
-#include <stdio.h>
-int main()
-{
-    char const *input = "Hello,World,Hi";
-    char delimiter = ',';
-
-    char **result = ft_split(input, delimiter);
-
-    // Check if ft_split was successful
-    if (!result)
-    {
-        printf("Memory allocation error\n");
-        return 1; // Return an error code
-    }
-
-    // Print the result
-    for (int i = 0; result[i] != NULL; i++)
-    {
-        printf("%s\n", result[i]);
-		free(result[i]);
-    }
-
-    // Free the allocated memory for the array of words
-    free(result);
-
-    return 0;
-}*/
