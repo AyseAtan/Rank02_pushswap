@@ -23,14 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return (index);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-int main()
-{
-	char *str="Hello Pisciners!";
-	printf("String: %s\n", str);
-	printf("My Function Stringlength: %d\n", ft_strlen(str));
-	printf("Library Stringlength: %lu\n", strlen(str));
-}*/
