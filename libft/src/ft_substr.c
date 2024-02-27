@@ -35,28 +35,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	substr[len] = '\0';
 	return (substr);
 }
-/*
-int main()
-{
-    const char *teststring = "Hello, here is the substring!";
-    unsigned int start_index = 7;
-    size_t length = 12;
-
-    char *result = ft_substr(teststring, start_index, length);
-    printf("Myfunction:\n");
-    if (result != NULL)
-    {
-        // Print or use the resulting substring
-        printf("Substring: %s\n", result);
-
-        // Don't forget to free the allocated memory when done
-        free(result);
-    } else
-    {
-
-		printf("Memory allocation failure or invalid input.\n");
-	}
-
-
-    return 0;
-}*/
