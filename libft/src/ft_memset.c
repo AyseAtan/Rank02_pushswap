@@ -27,29 +27,3 @@ void	*ft_memset(void *str, int c, size_t n)
 	}
 	return (str);
 }
-/*
-#include <string.h>
-int main()
-
-{
-    int str[4];
-    int c;
-    size_t n;
-
-    c = '2';
-    n = sizeof(str);
-    printf("My Function:\n");
-    ft_memset(str, c, n);
-    for (size_t i = 0; i < sizeof(str)/sizeof(int); i++)
-        {
-            printf("str[%zu] = %c\n", i, str[i]);
-        }
-
-    memset(str, c, n);
-    printf("Library:\n");
-    for (size_t i = 0; i < sizeof(str)/sizeof(int); i++)
-        {
-            printf("str[%zu] = %c\n", i, str[i]);
-        }
-    return 0;
-}*/
