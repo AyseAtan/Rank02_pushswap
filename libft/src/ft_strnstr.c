@@ -35,39 +35,3 @@ char	*ft_strnstr(const char *str, const char *to_find, size_t len)
 	}
 	return (NULL);
 }
-/*
-#include <stdio.h>
-#include <string.h>
-int main()
-{
-    const char *str = "Hello, this is a test string.";
-    const char *to_find = "is";
-    size_t max_len = 15;
-
-	printf("My Function: \n");
-    char *result = ft_strnstr(str, to_find, max_len);
-
-    if (result != NULL)
-    {
-        printf("String: %s\n", str);
-        printf("Substring: %s\n", result);
-    }
-    else
-    {
-        printf("Substring not found.\n");
-    }
-
-	//printf("Library: \n");
-	//char *lib = strnstr(str, to_find, max_len);
-
-    //if (lib != NULL)
-    //{
-    //   printf("String: %s\n", str);
-    //  printf("Substring: %s\n", lib);
-    //}
-    //else
-    //{
-    //   printf("Substring not found.\n");
-    //}
-    return 0;
-} */
