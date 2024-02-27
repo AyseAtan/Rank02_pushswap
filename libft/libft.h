@@ -10,10 +10,10 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H //#ifndef HEADER_H: checks if the symbol HEADER_H is undefined
-# define LIBFT_H //If HEADER_H is not defined, it defines it here.
+#ifndef LIBFT_H 
+# define LIBFT_H 
 
-# include <stdio.h> //actual content of the header file goes here.
+# include <stdio.h> 
 # include <stdlib.h>
 # include <unistd.h>
 # include <string.h>
