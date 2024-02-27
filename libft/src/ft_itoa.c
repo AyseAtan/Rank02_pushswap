@@ -53,21 +53,3 @@ char	*ft_itoa(int n)
 	}
 	return (result);
 }
-/*
-#include <stdio.h>
-#include <stdlib.h>
-
-int main()
-{
-    int number = -3458888888888;
-    char* str = ft_itoa(number);
-    printf("My Function:\n");
-    printf("Integer: %d\nString: %s\n", number, str);
-    free(str);
-
-    printf("Library:\n");//???
-    printf("Library (sprintf):\n");//?? soll ähnlich sein wie itoa??
-    printf("Integer: %d\nString: %d\n", number, number);
-
-    return 0;
-}*/
