@@ -25,37 +25,3 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 	}
 	return (0);
 }
-/*
-#include <string.h>
-#include <stdio.h>
-
-int main ()
-{
-	char s1[] = "";
-	char s2[] = "";
-	size_t result;
-	size_t lib;
-	size_t n;
-
-	n = 2;
-
-	printf("My Function: \n");
-	result = ft_strncmp(s1, s2, n);
-	if (result == 0)
-		{printf("equal \n");}
-	else if(result <0)
-		{printf("s1<s2 \n");}
-	else
-		{printf("s1>s2 \n");}
-
-	printf("Library: \n");
-	lib = strncmp(s1, s2, n);
-	if (lib == 0)
-		{printf("equal \n");}
-	else if (lib < 0)
-		{printf("s1<s2 \n");}
-	else
-		{printf("s1>s2 \n");}
-
-	return (0);
-}*/
