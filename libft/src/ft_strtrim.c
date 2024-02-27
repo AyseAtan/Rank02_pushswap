@@ -76,21 +76,3 @@ char	*ft_strtrim(const char *s1, const char *set)
 	trimmed[len] = '\0';
 	return (trimmed);
 }
-/*
-int main()
-{
-    char s1[] = " o  Hello, World!   o";
-    char set[] = " o";
-
-    // Use the ft_strtrim function to trim the string
-    char *trimmed_str = ft_strtrim(s1, set);
-
-    printf("Myfunction: \n");
-    // Print the original and trimmed strings
-    printf("Original String: \"%s\"\n", s1);
-    printf("Trimmed String:  \"%s\"\n", trimmed_str);
-
-    // Free the memory allocated by ft_strtrim
-    free(trimmed_str);
-    return 0;
-}*/
